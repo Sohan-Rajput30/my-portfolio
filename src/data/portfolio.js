@@ -29,12 +29,12 @@ export const profile = {
 
   // Put your resume PDF inside the /public folder (for example public/resume.pdf)
   // and set this to '/resume.pdf'. Leave empty to hide the button.
-  resume: 'CV.pdf',
+  resume: 'C_V.pdf',
 
   // Empty links are hidden automatically.
   socials: [
     { label: 'GitHub', href: 'https://github.com/Sohan-Rajput30' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sohansingh-rajput-b9a985278/' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sohansingh-rajput/' },
   ],
 
   // Contact section text
@@ -78,6 +78,7 @@ export const skills = [
   { name: 'C Programming', category: 'Programming' },
   { name: 'Java', category: 'Programming' },
   { name: 'JavaScript', category: 'Programming' },
+  { name: 'Postgre-sql', category: 'Database' },
   { name: 'HTML & CSS', category: 'Web' },
   { name: 'React', category: 'Web' },
   { name: 'Networking Fundamentals', category: 'Security' },
@@ -96,7 +97,7 @@ export const projects = [
       'AI assisted penetration testing framework built to scan URLs and websites, collect information, find vulnerabilities, define risks and generate reports.',
     status: 'IN DEVELOPMENT',
     tags: ['Python', 'AI', 'Vulnerability Scanning'],
-    image: '/projects/test.png', // optional screenshot, e.g. '/projects/sentinelai.png' (file in /public/projects)
+    image: '/projects/SentinelAI.png', // optional screenshot, e.g. '/projects/sentinelai.png' (file in /public/projects)
     links: { github: 'https://github.com/Sohan-Rajput30/SentinelAI', live: '' },
   },
   {
@@ -107,11 +108,22 @@ export const projects = [
       'A planned collection of controlled exercises for understanding common web vulnerabilities and documenting remediation.',
     status: 'LEARNING PROJECT',
     tags: ['OWASP', 'Web Security', 'Testing'],
-    image: '/projects/network.png', // optional screenshot, e.g. '/projects/sentinelai.png' (file in /public/projects)
+    image: '/projects/Pentest.jpg', // optional screenshot, e.g. '/projects/sentinelai.png' (file in /public/projects)
     links: { github: 'https://drive.google.com/drive/folders/1VHHkhH7F4XqHGO30wfzfWa2UIuONPv4V', live: '' },
   },
-  {
+    {
     number: '03',
+    title: 'My Portfolio',
+    category: 'DEVELOPMENT',
+    description:
+      'A professional well developed portfolio website that showcases the web development skills in detail.',
+    status: 'LEARNING PROJECT',
+    tags: ['Web Development', 'Profile', 'Coding'],
+    image: '/projects/Portfolio.png', // optional screenshot, e.g. '/projects/sentinelai.png' (file in /public/projects)
+    links: { github: 'https://github.com/Sohan-Rajput30/my-portfolio', live: 'https://my-portfolio-ten-mu-75.vercel.app/' },
+  },
+  {
+    number: '04',
     title: 'Network Analysis Lab',
     category: 'NETWORK SECURITY',
     description:
